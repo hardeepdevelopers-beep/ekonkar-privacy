@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy Policy for Ek Onkar – Gurbani & Simran, Android package com.hs.ekonkar.">
+<title>Privacy Policy · Ek Onkar – Gurbani &amp; Simran</title>
+<style>
+:root{color-scheme:light dark;--bg:#fffaf1;--paper:#fff;--ink:#172d49;--muted:#536071;--gold:#80551f;--line:#e7dcc8;--notice:#fff0ce}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:880px;margin:auto;padding:40px 22px 64px}header{border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{color:var(--gold);font-weight:650;letter-spacing:.02em}h1{font:700 clamp(2rem,6vw,3rem)/1.15 Georgia,serif;margin:16px 0}
+h2{font-size:1.3rem;line-height:1.35;margin-top:34px}h3{font-size:1.05rem}p,li{overflow-wrap:anywhere}
+a{color:var(--gold);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.meta{color:var(--muted);font-size:.92rem}.notice{background:var(--notice);border-left:4px solid var(--gold);padding:14px 18px;border-radius:8px;margin:24px 0}
+nav ul{display:flex;gap:8px 18px;flex-wrap:wrap;list-style:none;padding:0}section{scroll-margin-top:16px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:6px 20px;margin:16px 0}
+li{margin:8px 0}code{font-size:.9em}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:16px;color:var(--muted);font-size:.9rem}
+@media(prefers-color-scheme:dark){:root{--bg:#0c1d33;--paper:#172d49;--ink:#fff5e4;--muted:#c6b9a4;--gold:#e0bc70;--line:#30445f;--notice:#302c20}}
+@media print{body{background:white;color:black}main{max-width:none;padding:0}.notice{border:1px solid #555}a{color:inherit}nav{display:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="brand">Ek Onkar – Gurbani &amp; Simran</div>
+<h1>Privacy Policy</h1>
+<p class="meta">Android package: <code>com.hs.ekonkar</code><br>
+Effective date: <strong>[EFFECTIVE_DATE]</strong><br>
+Operator: <strong>[DEVELOPER_OR_LEGAL_ENTITY]</strong><br>
+Privacy contact: <strong>[DEVELOPER_CONTACT_EMAIL]</strong></p>
+</header>
+<aside class="notice" aria-label="Draft publication notice"><strong>Draft awaiting completion.</strong> The operator, working contact email and effective date must be completed before this policy is published. The operator must also confirm the intended age audience, service retention settings and final Google Play Data Safety answers.</aside>
+<p>This policy explains how the Android app handles information when you listen to Gurbani, use Simran, read devotional content, view wallpapers or receive notifications. Some information stays on your device; network services and integrated SDKs also process information. An app account is not required, and this version does not offer app-account registration.</p>
+<nav aria-label="Policy sections"><ul>
+<li><a href="#local">On your device</a></li><li><a href="#transmitted">Data sent to services</a></li>
+<li><a href="#sharing">Sharing</a></li><li><a href="#choices">Your choices</a></li>
+<li><a href="#deletion">Deletion</a></li><li><a href="#children">Children</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+
+<section id="local"><h2>1. Information stored on your device</h2>
+<p>The app uses Android preferences, DataStore and files to retain settings and provide offline or resumed experiences. This includes appearance and notification preferences, stored privacy choices, local premium/ad-free flags, Simran progress and haptic settings, reminder configuration, playback settings/state, notification deduplication records and cached content such as channel metadata, images and reading files.</p>
+<p>The reviewed app code does not upload your locally stored Simran count or round identifier as a devotional record. Optional analytics may separately report that a feature such as Simran was used. Local settings and caches are not the same as SDK identifiers or server logs described below.</p>
+<p>Downloaded wallpapers saved to your Pictures folder and files you share are separate from the app cache. Android backup is enabled in the app manifest, so eligible app data may also be backed up or restored through your device's backup service, depending on Android settings and backup rules.</p></section>
+
+<section id="transmitted"><h2>2. Information transmitted to third-party services</h2>
+<div class="panel"><h3>Advertising — Google AdMob and User Messaging Platform</h3>
+<p>The app supports banner, native and interstitial ads. When ads are eligible to run, Google's advertising SDK can process IP addresses, device/advertising identifiers, app and device information, ad interactions and diagnostic information. IP addresses may be used to estimate approximate location. These data support ad delivery and measurement, service operation and fraud prevention. Consent choices and applicable requirements affect advertising behavior; non-personalized ads do not mean that no data is processed.</p>
+<p>The app uses Google's User Messaging Platform to manage advertising consent and privacy choices where required. Premium/ad-free eligibility suppresses ad requests; it does not by itself disable other services in this policy.</p></div>
+<div class="panel"><h3>Firebase configuration, notifications and identifiers</h3>
+<p>Firebase Remote Config retrieves configuration, including feature/ad settings. Firebase Cloud Messaging (FCM) registers an app installation for notifications. These services use installation or registration identifiers and technical request information such as IP address, app/device details and SDK information to operate and secure their services.</p>
+<p><strong>FCM auto-initialization and token registration are enabled independently of optional notification delivery.</strong> Turning off a reminder or denying notification permission does not necessarily stop Firebase registration or all associated network processing. Notification settings determine delivery and topic subscriptions; the SDK manages the registration token.</p></div>
+<div class="panel"><h3>Optional Firebase analytics and diagnostics</h3>
+<p>Analytics and crash collection are disabled by default in the manifest and runtime privacy policy. Collection can be enabled by an existing stored preference; choices may persist across app updates or backup restoration. Performance collection also follows the stored diagnostics preference.</p>
+<p>When enabled, Google Analytics for Firebase processes app interactions, screen/session activity, app/device information and installation identifiers for usage analysis. App-defined events describe feature categories and actions, such as opening content or using playback; they do not send the local Simran count. Analytics advertising-ID collection and default advertising-storage/personalization permissions are disabled in the app configuration. This restriction is separate from AdMob's identifier processing.</p>
+<p>When diagnostics are enabled, Crashlytics processes crash reports, sanitized non-fatal errors, stack traces and app/device/installation information. Firebase Performance Monitoring can process timing, network-request metadata, response codes, payload sizes and technical performance data. These services help diagnose failures and improve reliability. Turning diagnostics off invokes deletion of unsent crash reports; it does not automatically delete reports already received by Google.</p></div>
+<div class="panel"><h3>OneSignal</h3>
+<p>The OneSignal SDK is initialized in the app. Legacy OneSignal push delivery is disabled by the current notification coordinator, but disabling delivery is not equivalent to disabling SDK initialization or all data processing. OneSignal can process subscription/device identifiers, push tokens, IP-derived location, device/app attributes, session activity and notification-related information according to its SDK behavior and applicable settings. Its privacy information is linked below.</p></div>
+<div class="panel"><h3>Wallpapers, reading content, radio and external pages</h3>
+<p>The wallpaper feature reads public wallpaper metadata and images from Supabase. The reviewed wallpaper integration does not create a user account or upload your images or local preferences to a Supabase profile. Supabase and its infrastructure receive network request data such as IP address, requested resource, request headers and access times.</p>
+<p>The app also downloads reading/content files from Firebase Storage and connects to content and streaming providers, including SikhNet and SGPC. Those providers receive the technical connection information needed to deliver the requested content, including IP address and requested resource. Opening a browser, Custom Tab or embedded page may expose additional information to that site under its own policy. Sharing through WhatsApp or another app transfers the selected file/content to the app you choose and is subject to that service's practices.</p></div>
+<p>We do not ask you to provide a name, email address or phone number to use the app. If you contact the operator voluntarily, the operator receives the contact information and message you provide to respond to your request.</p></section>
+
+<section id="sharing"><h2>3. Purposes, recipients and sharing</h2>
+<p>Information is processed to deliver content and playback, retain preferences, provide reminders and notifications, display and measure ads, obtain configuration, maintain security, prevent fraud, investigate failures and respond to support or privacy requests. Optional analytics supports understanding feature usage.</p>
+<p>Recipients include Google/Firebase/AdMob, OneSignal, Supabase and their service infrastructure, the content providers you access, and recipients/services you choose when sharing. Advertising-related processing can be considered sharing under privacy laws and Google Play definitions. The reviewed app code does not send a local Simran-history database to advertisers.</p>
+<p>Provider processing may take place outside your country. Provider terms, contractual arrangements and applicable law govern their processing and international transfers. Information may also be disclosed where required by applicable law or to address security or legal claims; this is not a claim that such a disclosure has occurred.</p>
+<h3>Provider privacy information</h3>
+<ul>
+<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+<li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
+<li><a href="https://policies.google.com/technologies/ads">Google advertising privacy</a> and <a href="https://developers.google.com/admob/android/privacy">AdMob privacy controls</a></li>
+<li><a href="https://onesignal.com/privacy_policy">OneSignal Privacy Policy</a></li>
+<li><a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
+</ul></section>
+
+<section id="permissions"><h2>4. Android permissions</h2>
+<ul>
+<li><strong>Internet and network state:</strong> content, audio streams, SDK services and connectivity handling.</li>
+<li><strong>Notifications:</strong> optional reminders and notifications; Android settings control permission and notification channels.</li>
+<li><strong>Foreground media playback and wake lock:</strong> background playback and related service operation; these do not authorize microphone recording.</li>
+<li><strong>Boot completion:</strong> restore applicable reminder scheduling after device restart.</li>
+<li><strong>Set wallpaper:</strong> apply an image at your request. Legacy shared-storage write permission is requested on Android 9 and older for saving wallpapers.</li>
+<li><strong>Phone state:</strong> the manifest declares this permission, but the reviewed application code does not read or upload phone numbers or call history.</li>
+<li><strong>Advertising identifiers:</strong> the merged app manifest includes advertising-ID permissions contributed by advertising SDK integration.</li>
+</ul>
+<p>The reviewed app manifest does not request contacts, microphone, camera or precise-location permission. Approximate location can still be inferred from an IP address by online services.</p></section>
+
+<section id="choices"><h2>5. Choices and controls</h2>
+<ul>
+<li>Use the app's notification preferences and Android notification settings to control reminder/notification delivery. This does not necessarily stop FCM registration.</li>
+<li>Where required, the app's Settings privacy-options entry opens Google's advertising privacy form. You may also manage advertising-ID and ad-privacy controls in Android settings, where supported.</li>
+<li>Stored analytics/diagnostics preferences determine optional collection. The reviewed Settings screen does not currently expose dedicated analytics/diagnostics switches. Clearing app storage resets local preferences, but also removes local progress and settings; Android backup restoration can restore eligible preferences.</li>
+<li>Use Android app settings to clear cache, clear app storage, revoke permissions or uninstall. Clear cache alone does not remove all saved preferences, provider-held data or exported files.</li>
+<li>Choose whether to open external services, stream content, download an image or share it with another app.</li>
+</ul></section>
+
+<section id="retention"><h2>6. Retention</h2>
+<p>Local preferences and progress generally remain until you reset them, clear app storage or uninstall, subject to Android backup/restoration. Caches may be evicted or replaced; temporary wallpaper-share files older than 24 hours are cleaned up when the share routine runs, rather than on a guaranteed background deletion schedule. Exported wallpapers and copies shared to other apps can remain after uninstall and must be managed separately.</p>
+<p>Data already sent to service providers is retained under their product settings, service policies and applicable legal requirements. The operator has not specified a universal retention period for all provider data, and this policy does not promise immediate deletion of all logs or backups. Contact the operator for information about a particular record or service. Support correspondence is retained as needed to address the request and applicable obligations.</p></section>
+
+<section id="deletion"><h2>7. Access and deletion requests</h2>
+<p>To request access, correction or deletion of information that can be associated with you, contact <strong>[DEVELOPER_CONTACT_EMAIL]</strong> with the subject “Ek Onkar privacy request.” Describe the request and relevant app version or dates. Do not send passwords or unnecessary sensitive information. The operator may ask for limited information needed to verify and locate a record, and will explain any legal or technical limitations, including records that cannot reasonably be associated with you.</p>
+<p>The app has no app-account deletion workflow because it does not provide app-account registration. Clearing local data does not delete information already transmitted to providers. The operator must use the applicable provider mechanisms where a verified request requires provider-held data to be deleted. Stopping notifications or uninstalling does not guarantee immediate deletion of SDK/server records. Rights and response requirements depend on applicable law.</p></section>
+
+<section id="security"><h2>8. Security</h2>
+<p>The app uses Android application storage protections and HTTPS connections for services such as Firebase and Supabase. However, legacy SGPC content endpoints and the current network configuration also permit HTTP. <strong>Not every content connection is encrypted.</strong> No storage or transmission method guarantees absolute security. We do not claim end-to-end encryption or that every network request is encrypted.</p></section>
+
+<section id="children"><h2>9. Children's privacy</h2>
+<p>The app does not ask users to provide an age, and devotional content alone does not prevent SDKs from processing device or technical information. Parents or guardians can manage permissions, notifications and device use. If you believe a child's personal information has been processed inappropriately, contact the operator so the matter can be reviewed and any required deletion or other action considered.</p>
+<p>The operator must ensure that the app's declared age audience, advertising configuration and consent practices meet applicable children's privacy rules. This policy is not a representation that the current SDK configuration has been certified for child-directed use.</p></section>
+
+<section id="updates"><h2>10. Policy updates and this webpage</h2>
+<p>The operator may update this policy when app practices or requirements change and will revise the effective date. Material changes requiring notice or consent must be handled through the applicable app or platform process.</p>
+<p>This standalone policy page contains no analytics scripts, advertising scripts, forms, external fonts or embedded trackers. If hosted on GitHub Pages, the hosting provider processes ordinary web requests under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Following an external policy link connects you to that provider's website.</p></section>
+
+<section id="contact"><h2>11. Contact</h2>
+<p>App: <strong>Ek Onkar – Gurbani &amp; Simran</strong><br>Package: <code>com.hs.ekonkar</code><br>
+Operator: <strong>[DEVELOPER_OR_LEGAL_ENTITY]</strong><br>Privacy and deletion contact: <strong>[DEVELOPER_CONTACT_EMAIL]</strong></p></section>
+<footer>Privacy Policy · Ek Onkar – Gurbani &amp; Simran</footer>
+</main>
+</body>
+</html>
